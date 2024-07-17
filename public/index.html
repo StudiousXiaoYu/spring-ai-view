@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta name="renderer" content="webkit" />
+    <meta name="force-rendering" content="webkit" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0, viewport-fit=cover" />
+    <title>智能助理</title>
+    <link rel="stylesheet" href="https://g.alicdn.com/code/npm/@ali/chatui-sdk/6.2.8/ChatSDK.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      if (typeof Set === 'undefined' || typeof Set.prototype.keys !== 'function') {
+        document.write('<script src="//g.alicdn.com/alime/polyfill/0.1.1/??ie10.js,css-vars.js"><\/script>');
+      } else if (!(window.CSS && CSS.supports('color', 'var(--a)'))) {
+        document.write('<script src="//g.alicdn.com/alime/polyfill/0.1.1/css-vars.js"><\/script>');
+      }
+    </script>
+    <script src="https://g.alicdn.com/code/npm/@ali/chatui-sdk/6.2.8/ChatSDK.js"></script>
+    <script src="https://g.alicdn.com/code/npm/@ali/chatui-sdk/6.2.8/isvParser.js"></script>
+    <script src="https://g.alicdn.com/chatui/extensions/6.0.0/zw-bundle.js"></script>
+    <script src="https://g.alicdn.com/chatui/icons/2.0.2/index.js"></script>
+    <!-- <script src="//g.alicdn.com/chatui/icons/2.0.2/index.js"></script> -->
+    <!-- <script src="/setup.js"></script> -->
+  </body>
+</html>
